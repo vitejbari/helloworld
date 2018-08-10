@@ -17,8 +17,8 @@ class Mathematics:
         return self.x / self.y
 
 
-x = 13
-y = 11
+x = 123456789
+y = 123
 Cal = Mathematics(x,y)
 
 """print(Cal.add())
