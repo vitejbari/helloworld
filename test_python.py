@@ -11,8 +11,8 @@ class TestMethods(unittest.TestCase):
     def test_assert3(self):
         self.assertEqual(Cal.div(),x/y)
 
-x = 123456789
-y = 123
+x = 0.123456789
+y = 123.9
 Cal = Mathematics(x,y)
 
 """print(Cal.add())
